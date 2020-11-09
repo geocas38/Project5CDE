@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+.block {
+    background-color: pink;
+    border: 10px solid pink;
+    border-radius: 10px;
+}
+
+.votingblock {
+    background-color: lightblue;
+    border: 10px solid lightblue;
+    border-radius: 10px;
+    
+}
+
+.votingblock div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.votingOption {
+    color: white; 
+    width:500px;
+    height:100px;
+    border:1px solid #000;
+    background-color: blue; 
+    border-radius: 10px;
+}
